@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('telaLogin.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 150px;
+    color: #333;
+
+}
+
+    h1 {
+        background: linear-gradient(90deg, rgb(241, 234, 234), rgb(167, 32, 126),rgb(218, 4, 200), rgb(242, 243, 239), rgb(218, 4, 200), rgb(243, 238, 247), rgb(68, 117, 223)); /* Gradiente de cores */
+        font-size: 2.5em; /* Ajusta o tamanho do título */
+        text-align: center; /* Centraliza o título */
+        margin-bottom: 20px; /* Espaçamento inferior */
+    
+}
+
+h2 {
+    background: linear-gradient(90deg, rgb(241, 234, 234), rgb(76, 86, 238),rgb(115, 108, 223), rgb(242, 243, 239), rgb(101, 91, 235), rgb(243, 238, 247), rgb(68, 117, 223)); /* Gradiente de cores */
+        font-size: 1.8em; 
+        text-align: center; 
+        margin-bottom: 20px; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+form input, form select, form button {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #ff0676;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff0676;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+th.actions, td.actions {
+    text-align: center;
+}
+
+img.header {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+    height: auto;
+}
