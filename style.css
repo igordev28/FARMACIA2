@@ -1,17 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('telaLogin.jpg'); 
+    background-image: url(telacad.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0;
-    padding: 150px;
-    color: #333;
+    margin: 5;
+    padding: 160px;
+    color: #0c0909;
 
 }
 
     h1 {
-        background: linear-gradient(90deg, rgb(241, 234, 234), rgb(167, 32, 126),rgb(218, 4, 200), rgb(242, 243, 239), rgb(218, 4, 200), rgb(243, 238, 247), rgb(68, 117, 223)); /* Gradiente de cores */
+        background: linear-gradient(90deg, rgb(241, 234, 234), rgb(138, 176, 190),rgb(31, 176, 212), rgb(242, 243, 239), rgb(238, 215, 236), rgb(243, 238, 247), rgb(68, 117, 223)); /* Gradiente de cores */
         font-size: 2.5em; /* Ajusta o tamanho do título */
         text-align: center; /* Centraliza o título */
         margin-bottom: 20px; /* Espaçamento inferior */

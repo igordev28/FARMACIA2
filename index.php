@@ -7,7 +7,7 @@ $senha = password_hash('jones', PASSWORD_DEFAULT);
 $stmt = $pdo->prepare("INSERT INTO administradores (usuario, senha) VALUES (?, ?)");
 $stmt->execute([$usuario, $senha]);
 
-echo "Administrador criado com sucesso!";
+echo "Logado com Sucesso !!!";
 
 session_start();
 if (!isset($_SESSION['admin'])) {
@@ -19,8 +19,12 @@ if (!isset($_SESSION['admin'])) {
 $search = isset($_GET['search']) ? $_GET['search'] : '';
 $order_by = isset($_GET['order_by']) ? $_GET['order_by'] : 'medicamento';
 
-// Modifica a query com base na busca e ordenação
-$query_str = "SELECT * FROM medicamentos WHERE medicamento LIKE :search ORDER BY " . $order_by;
+// Modifica a consulta com base na busca e ordenação
+$query_str = "SELECT * FROM medicamentos WHERE 
+                medicamento LIKE :search OR 
+                categoria LIKE :search OR 
+                preco LIKE :search 
+                ORDER BY " . $order_by;
 $query = $pdo->prepare($query_str);
 $query->execute(['search' => '%' . $search . '%']);
 $medicamentos = $query->fetchAll(PDO::FETCH_ASSOC);
