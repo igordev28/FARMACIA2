@@ -6,20 +6,19 @@ body {
     background-repeat: no-repeat;
     margin: 5;
     padding: 160px;
-    color: #0c0909;
+    color: #faf8f8;
 
 }
 
     h1 {
-        background: linear-gradient(90deg, rgb(241, 234, 234), rgb(138, 176, 190),rgb(31, 176, 212), rgb(242, 243, 239), rgb(238, 215, 236), rgb(243, 238, 247), rgb(68, 117, 223)); /* Gradiente de cores */
-        font-size: 2.5em; /* Ajusta o tamanho do título */
+        background-color:  #c50e61;
         text-align: center; /* Centraliza o título */
         margin-bottom: 20px; /* Espaçamento inferior */
     
 }
 
 h2 {
-    background: linear-gradient(90deg, rgb(241, 234, 234), rgb(76, 86, 238),rgb(115, 108, 223), rgb(242, 243, 239), rgb(101, 91, 235), rgb(243, 238, 247), rgb(68, 117, 223)); /* Gradiente de cores */
+    background-color: #c50e61;
         font-size: 1.8em; 
         text-align: center; 
         margin-bottom: 20px; 
